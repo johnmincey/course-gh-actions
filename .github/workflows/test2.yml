@@ -8,8 +8,8 @@ on:
 #  push:
 #schedule:
 #    - cron: '*/5 * * * *'
+    workflow_dispatch: #manual trigger
 
-workflow_dispatch: #manual trigger
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
